@@ -1,0 +1,40 @@
+body{
+    background-color: hsl(195, 69%, 90%);
+    ;
+}
+.container{
+    height: 410px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 42%;
+    top: 25%;
+    box-shadow: 1px 1px 25px black;
+}
+.container img{
+    width: 220px;
+    height: 230px;
+    position: absolute;
+    border-radius: 4%;
+    margin:15px ;
+}
+.container #p1{
+    position: absolute;
+    top: 250px;
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 15px;
+    text-align: center;
+}
+.container #p2{
+    position: absolute;
+    top: 320px;
+    margin-left: 15px;
+    font-size: smaller;
+    font-weight: bolder;
+    margin-right: 15px;
+    color: #7d7d7d;
+    text-align: center;
+}
